@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+/* Reset */
+body {max-width:1024px;min-width:320px;margin:40px auto 0 !important;}
+
+/* 디비필드 이동버튼 */
+.btn_go_dbfield {width:100%;background:#ff0072;text-decoration:none; display:block;position:fixed; left:0; top:0px;text-align:center;z-index:9999999;border-radius:0;}
+.btn_go_dbfield span {line-height:40px;color:white;font-weight:bold;font-size:1.2em;}
+
+/* 디비필드 */
+#mkis_db{position:absolute; top:-40px; margin-top:-1%;}
+.dbfield_sec {width:96%; padding:2.5% 0 9.5%;}
+.dbfield input[type="radio"] {position:relative;top:0em;}
+.dbfield input[type="radio"] + span {position:relative;top:0em;}
+.dbfield table > tbody > tr > td {padding:0.5em 0.5em;}
+.dbfield table > tbody > tr > td label {position:relative; top:0em;}
+.dbfield table > tbody > tr > td label > span{position:relative;top:0.15em;}
+
+/* 풋터 */
+#dbfooter, #dbfooter *
+{font-size:14px !important;line-height:1.5em;margin:0;padding:0;vertical-align:middle;color:#555;box-sizing:border-box;}
+#dbfooter{background:#2c2c2c;text-align:center;padding:0.8em 1em;}
+#dbfooter *{color:white;line-height:1.5em;}
+#dbfooter > p{margin:1em 0;font-size:1.2em !important;}
+#dbfooter{text-align:left;}
+#dbfooter > p{font-size:1em !important;}
+
+/* 유튜브 */
+.youtube {padding-bottom:56.25%;position:relative;}
+.youtube iframe{position:absolute;left:0;top:0;width:100%;height:100%;}
+
+/* 화면확대 */
+.finger_zoom {border:solid 1px #ddd; border-left:none; border-right:none;}
+
+/* 본문 */
+.con {position:relative;}
+.con img {width:100%;}
