@@ -7,9 +7,8 @@
 	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-	})(window,document,'script','dataLayer','GTM-T4LW7NR');</script>
+	})(window,document,'script','dataLayer','GTM-WS47FKW');</script>
 	<!-- End Google Tag Manager -->
-
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-QNT7JNR43P"></script>
@@ -69,27 +68,18 @@
 	<script type="text/javascript" src="./lotte/custom_t.js"></script>
 	<script src="./lotte/fast.js"></script>
 	
-		
-	
-	
+
 </head>
 
 <body>
 
 <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T4LW7NR"
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WS47FKW"
 	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<!-- End Google Tag Manager (noscript) -->
 
 	<template id="headerTemplate"></template>
-	<!-- <div id="video" style="width:100%;">
-	<video id="vid" class="video br50 msize" autoplay muted playsinline loop style="z-index:998;">
-		<source id="hvid" src="./lotte/intro-video3.mp4" type="video/mp4">
-		</video> 
-		<div class="vtext">
-			<p class="word"></p>
-			</div>
-		</div>  -->
+
 	<template id="test_body"></template>
 
 
@@ -125,67 +115,72 @@
 
 
 	
-	<script> document.getElementById('vid').play();</script>
-	<script src="./lotte/bootstrap.bundle.min.js"></script>
-    <script src="./lotte/easing.min.js"></script>
 
-    <!-- <script src="lib/mobile-namobile-nav.js"></script> -->
-    <script src="./lotte/wow.min.js"></script>
-    <script src="./lotte/waypoints.min.js"></script>
-    <script src="./lotte/counterup.min.js"></script>
-    <script src="./lotte/owl.carousel.min.js"></script>
-    <script src="./lotte/isotope.pkgd.min.js"></script>
-    <script src="./lotte/lightbox.min.js"></script>
+</form>
 
-	<script src="./lotte/menu_intro.js"></script>
-	<script src="./lotte/test_body_version1.js"></script>
-	<script src="./lotte/personal_f.js"></script>
-	<script src="./lotte/scfm_intro_about.js"></script>
-	<script src="./lotte/slick_intro.js"></script>
-	<script src="./lotte/main2.js"></script>
+</body>
 
-	<script src="./lotte/ValidCheck.js"></script>
-	<script language="JavaScript" type="text/JavaScript">		   
-		var dbdb_submitted = false;
-		
-	function OnSubmit() {
-	if(dbdb_submitted == true) { return; }
 
-	var f = document.inputForm;
+<script src="./lotte/bootstrap.bundle.min.js"></script>
+<script src="./lotte/easing.min.js"></script>
+
+<!-- <script src="lib/mobile-namobile-nav.js"></script> -->
+<script src="./lotte/wow.min.js"></script>
+<script src="./lotte/waypoints.min.js"></script>
+<script src="./lotte/counterup.min.js"></script>
+<script src="./lotte/owl.carousel.min.js"></script>
+<script src="./lotte/isotope.pkgd.min.js"></script>
+<script src="./lotte/lightbox.min.js"></script>
+
+<script src="./lotte/menu_intro.js"></script>
+<script src="./lotte/test_body_version1.js"></script>
+<script src="./lotte/personal_f.js"></script>
+<script src="./lotte/scfm_intro_about.js"></script>
+<script src="./lotte/slick_intro.js"></script>
+<script src="./lotte/main2.js"></script>
+
+<script src="./lotte/ValidCheck.js"></script>
+<script language="JavaScript" type="text/JavaScript">		   
+	var dbdb_submitted = false;
+	
+function OnSubmit() {
+if(dbdb_submitted == true) { return; }
+
+var f = document.inputForm;
+
+
+
+if ( VC_inValidText(f.name, "이름") ) return;
+
+if ( VC_inValidText(f.tel1, "연락처") ) return;
+if ( VC_inValidNumber(f.tel1, "연락처") ) return;
+if ( VC_inValidText(f.tel2, "연락처") ) return;
+if ( VC_inValidNumber(f.tel2, "연락처") ) return;
+if ( VC_inValidText(f.tel3, "연락처") ) return;
+if ( VC_inValidNumber(f.tel3, "연락처") ) return;
+
+if ( VC_inValidText(f.item1, "차종") ) return;
 
 	
+if ( !f.agree.checked ) {
+	alert("개인정보 취급을 동의해 주세요!   ");
+	return;
+}
 
-	if ( VC_inValidText(f.name, "이름") ) return;
-	
-	if ( VC_inValidText(f.tel1, "연락처") ) return;
-	if ( VC_inValidNumber(f.tel1, "연락처") ) return;
-	if ( VC_inValidText(f.tel2, "연락처") ) return;
-	if ( VC_inValidNumber(f.tel2, "연락처") ) return;
-	if ( VC_inValidText(f.tel3, "연락처") ) return;
-	if ( VC_inValidNumber(f.tel3, "연락처") ) return;
-	
-	if ( VC_inValidText(f.item1, "차종") ) return;
+f.auto_defense.value = "identicharddeep!";
 
-		
-	if ( !f.agree.checked ) {
-		alert("개인정보 취급을 동의해 주세요!   ");
-		return;
-	}
-	
-	f.auto_defense.value = "identicharddeep!";
+dbdb_submitted = true;
+f.submit();	
+}
+</script>
 
-	dbdb_submitted = true;
-	f.submit();	
-	}
-	</script>
-	
 
-	<script type="text/javascript">var submitted=false;</script>
-                    
-	<iframe name="hidden_iframe11" id="hidden_iframe11"
-	style="display:none;" onload=""></iframe>
+<script type="text/javascript">var submitted=false;</script>
+				
+<iframe name="hidden_iframe11" id="hidden_iframe11"
+style="display:none;" onload=""></iframe>
 
-	<script>
+<script>
 var targetDate = new Date();
 targetDate.setDate(targetDate.getDate() + 1);
 targetDate.setHours(0, 0, 0, 0);
@@ -195,33 +190,28 @@ var countDownDate = targetDate.getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
-  // Get current time
-  var now = new Date().getTime();
+// Get current time
+var now = new Date().getTime();
 
-  // Find the distance between now and the countdown date
-  var distance = countDownDate - now;
+// Find the distance between now and the countdown date
+var distance = countDownDate - now;
 
-  // Calculate time units
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)).toString().padStart(2, "0");
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60)).toString().padStart(2, "0");
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000).toString().padStart(2, "0");
+// Calculate time units
+var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)).toString().padStart(2, "0");
+var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60)).toString().padStart(2, "0");
+var seconds = Math.floor((distance % (1000 * 60)) / 1000).toString().padStart(2, "0");
 
-  // Output the result in an element with id="countdown"
-  document.getElementById("countdown").innerHTML = hours + "시 " + minutes + "분 " + seconds + "초 ";
+// Output the result in an element with id="countdown"
+document.getElementById("countdown").innerHTML = hours + "시 " + minutes + "분 " + seconds + "초 ";
 
-  // If the countdown is finished, start a new countdown for the next midnight
-  if (distance < 0) {
-    clearInterval(x);
-    targetDate.setDate(targetDate.getDate() + 1);
-    countDownDate = targetDate.getTime();
-    x = setInterval(arguments.callee, 1000);
-  }
+// If the countdown is finished, start a new countdown for the next midnight
+if (distance < 0) {
+clearInterval(x);
+targetDate.setDate(targetDate.getDate() + 1);
+countDownDate = targetDate.getTime();
+x = setInterval(arguments.callee, 1000);
+}
 }, 1000);
-		</script>
-
-</form>
-
-</body>
-
+	</script>
 
 </html>
