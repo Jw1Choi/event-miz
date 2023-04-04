@@ -66,19 +66,21 @@ testbody.innerHTML =`
 								</div><br><br>
 								<div>
 								
-								<span style="font-size:20px;">오늘 하루만! 특가 이벤트</span>
+                                <h3  class="textleft wow fadeInUp">매출 확보를 위해<br>당장의 수익을 내려 놓았습니다.<br>지금까지 알아본 견적에서는<br>볼 수 없는 가격일 겁니다.<br><br><u class="underline">"현재 페이지를 그냥 나가기엔<br>더 이상 볼 수 없는<br>마진 포기한 견적 받아보기"</u></h3>
+
+								<span style="font-size:20px;">오늘까지만 견적드리겠습니다.</span>
 								<img src="./lotte/fire.png" style="width:20px;margin-top:-8px;">
 								</div>
 								<h1 style="position:relative;z-index:100;font-size:33px;font-weight:bold;" id="countdown"></h1>
 								
-								<h3  class="textleft wow fadeInUp">고객분들의 성원에 보답하고자<br><u class="underline">"현재 페이지에서만 제공합니다."</u></h3>
+							
 
-								<p style="font-size:30px;font-weight:bold"class="blink"> 선착순 50명!</p>
+								<p style="font-size:30px;font-weight:bold"class="blink"></p>
 								
 								<section id="team" class="section-bg wow fadeIn" style="margin-top: 80px;">
 								<div class="container">
 								   <div class="section-header">
-									<h3 style="text-align:center" class="textleft">롯데렌터카에서 준비한<br>이 페이지만의 추가혜택</h3>
+									<h3 style="text-align:center" class="textleft">물론 혜택은 전부 나갑니다.<br>걱정마세요.</h3>
 									
 								  </div>
 						  
@@ -136,9 +138,9 @@ testbody.innerHTML =`
 							  
 							  
 	 <br> 
-									  <h3>+@<br>쉽게 오지 않는<br>오늘만의 특가를 받아보세요!</h3>
+									  <h3>견적받으시는 분들에게는<br>추가 혜택도 드리겠습니다.<br><br>매출 확보를 위해 마진을 확 낮춘<br><br><u class="underline">현재 페이지에서 볼 수 있는<br>특별한 할인가를 받아보세요!</u></h3>
 									  <p class="textleft questm">
-									  <u class="underline blink">(조기 마감이 되면 종료될 수 있습니다)</u>
+									  <u class="underline blink">(대신 마감이 되면 종료합니다)</u>
 									  </p>
 									</div>
 								  
@@ -152,7 +154,7 @@ testbody.innerHTML =`
 		
 							 <div class="col-12 col50 text-center pad-msg" >
 							 
-							 <span class="tip-text">필요하신 분들에게<br>빠른 견적을 도와드립니다.</span><br><br>	
+							 <span class="tip-text">선착순 제공이니<br>기회를 얼른 잡으세요.</span><br><br>	
 							 </div>
 		
 								 </div> </center><br>

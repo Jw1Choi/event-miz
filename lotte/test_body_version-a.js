@@ -1,41 +1,36 @@
 const testbody = document.getElementById('test_body');
 testbody.innerHTML =` 
-<div id="wrap" >
+<div id="wrap" style="width:100%">
 
-<section id="dbscf" style="display:none">
+<section id="dbscf" style="display:none;">
 <form id="db" name="inputForm" accept-charset="euc-kr" method="post" action="https://dbdbdeep.com/site17/ifr/ifr_save.php">
-	<input type="hidden" name="ms" value="S00257269W" />
-	<input type="hidden" name="ca" value="C05451655Y" />
-	<input type="hidden" name="auto_defense" />
+<input type="hidden" name="ms" value="S00242885B" />
+<input type="hidden" name="ca" value="C05120127C" />
+<input type="hidden" name="auto_defense" />
+
+
+
 
 <div class="input_title"><span>이름</span><input type="text" name="name" /></div>
-<div class="input_title"><span>성별</span>
-<input type="radio" name="sex" value="여성" id="female"  style="margin:0 0; vertical-align:middle;" />
-	<label for="female" style="margin-right:10px;">여성</label>
-<input type="radio" name="sex" value="남성" id="male" style="margin:0 0; vertical-align:middle;" />
-	<label for="male">남성</label>
-</div>
-<div class="input_title"><span>나이</span><input type="text" name="age" maxlength="2" style="width:20%;" />세</div>
-<div class="input_title"><span>키</span><input type="text" name="item1" maxlength="3" style="width:20%;" />cm</div>
-<div class="input_title"><span>몸무게</span><input type="text" name="item2" maxlength="3" style="width:20%;" />kg</div>
-<div class="input_title"><span>연락처</span>
+<div class="input_title"><span>전화번호</span>
 <select type="text" name="tel1" style="width:20%; border:none; border-bottom:1px solid #ccc;" >
-	<option value="010">010</option>
-	<option value="011">011</option>
-	<option value="016">016</option>
-	<option value="017">017</option>
-	<option value="018">018</option>
-	<option value="019">019</option>
-</select>
-<input type="text" name="tel2" style="width:20%;" maxlength="4"/>
-<input type="text" name="tel3" style="width:20%;" maxlength="4"/>
+<option value="010">010</option>
+<option value="011">011</option>
+<option value="016">016</option>
+<option value="017">017</option>
+<option value="018">018</option>
+<option value="019">019</option>
+</select>-
+<input type="text" name="tel2" style="width:20%;" maxlength="4" />-
+<input type="text" name="tel3" style="width:20%;" maxlength="4" />
 </div>
-<div class="input_title"><span>문의사항</span><textarea name="etc" style="margin-top:10px" class="textarea_box"></textarea></div>
+<div class="input_title"><span>차종</span><input type="text" name="item1" /></div>
 
+<div style="font-size:0.7em;"><input type="checkbox" name="agree" id="agreement"  style="margin:0 0; vertical-align:middle;" checked /><label for="agreement">개인정보 취급 동의</label><a href="javascript:dbdb_pri_popup();">[보기]</a>
 
-
-<div style="font-size:0.7em;"><input type="checkbox" name="agree" id="agreement" checked style="margin:0 0; vertical-align:middle;" />
 </form>
+
+<div class="footer_btn">
 <a href="#" onclick="javascript:OnSubmit();">
  <span style="color:#fff">신청하기</span>
 	</a>
@@ -54,335 +49,158 @@ testbody.innerHTML =`
 			  <form action="" id="form_e11" method="POST" target ="hidden_iframe11" onsubmit=" submitted=true;"> 
 					<div class="wow fadeIn bbackg"> 
 		
-							 <section  id="main_intro" class="backg" style="text-align: center;" >
-				
-								  <img src="./ezgif-frame-041.jpg" class="bg-img br50" id="intro_size">
-								 
-								  <video id="vid" class="video br50 msize" autoplay muted playsinline loop style="z-index:1;">
-								  <source id="hvid" src="./intro-video3.mp4" type="video/mp4">
-								  </video> 
-							
-								  <div class="vtext">
-								  <p class="word">나에게 쉬운 건강한 습관</p>
-								  </div>
-								  
-								<div class="img-text md-top3 lg-top3 top-space " style="font-size:14px;">
-							<section id="team" class="section-bg">
+							 <section  id="main_intro" class="backg " style="text-align: center;" >
+						
 
-							<div class="container">
-							
-			
-							  <div class="section-header" style="padding-left:15px">
+							 <div class="img-text md-top3 lg-top3 top-space " style="font-size:14px;">
+						
+ 
+					
+							 
+			 
+							  <div class="section-header" style="padding-top:63px;">
+							  <div style="position:relative;">
+								<a align="center"><img src="https://direct.lotterentacar.net/atch/getImage.do?atchFileId=ODM0000000000000019&fileSn=0" style="width:100%;max-width:1000px" class="br80">
+								<span style="position:absolute;top:80%;left:0;right:38%;z-index:100;font-size:16px;font-weight:bold">신형 그랜저 하루 초특가 이벤트!</span>
+								
+								</div><br><br>
+								<div>
+								
+								<span style="font-size:20px;">오늘 하루만! 특가 이벤트</span>
+								<img src="./lotte/fire.png" style="width:20px;margin-top:-8px;">
+								</div>
+								<h1 style="position:relative;z-index:100;font-size:33px;font-weight:bold;" id="countdown"></h1>
+								
+								<h3  class="textleft wow fadeInUp">지금까지 알아본 어떤 견적보다<br>더 저렴할 것입니다.<br><br><u class="underline">"현재 페이지에서 나가면<br>더 이상 볼 수 없는<br>초특가 견적 받아보기"</u></h3>
 
-
-							  <h2 style="text-align:left" class="textleft wow fadeIn">ABOUT US</h2> 
-							
-			
-							  <br><Br>
-								<h3 style="text-align:left" class="textleft wow fadeIn">의지박약, 작심삼일을 반복하는 분도<br>감량을 지속적으로 올바르고 건강하게</h3>
-								<p style="text-align:left" class="textleft questm wow fadeIn">
-								 굶거나 극단적으로 적게 먹는 감량법은<br>
-								 건강을 해치게 되고 결국 몸에<br>적신호가 켜지는 순간 지속하지 못합니다.<br>
-								</p>
-							  </div>
-					  <br>
-							
-						  </section>
-
-
-
-
-
-
-
-
-
-								  <section id="about">
-								  <div class="container">
-									<div class="row">
-									  <div class="col-lg-6 col-md-6">
-										<div class="about-img">
-										  <img src="./model.jpg" style="width:96%" alt="" />
-										</div>
-									  </div>
-						  
-									  <div class="col-lg-6 col-md-6">
-										<div class="about-content wow fadeIn">
-										  <h3>꾸준히 관리 성공하면서<br>예쁜 옷 마음껏 입고 싶으신가요?</h3>
-										 
-										  <!-- <ul>
-											<li>
-											  <i class="ion-android-checkmark-circle"></i> 프로필
-											</li>
-											<li>
-											  <i class="ion-android-checkmark-circle"></i> Duis aute irure
-											  dolor in reprehenderit in voluptate velit.
-											</li>
-											<li>
-											  <i class="ion-android-checkmark-circle"></i> Ullamco laboris
-											  nisi ut aliquip ex ea commodo consequat. Duis aute irure
-											  dolor in reprehenderit in voluptate trideta storacalaperda
-											  mastiro dolore eu fugiat nulla pariatur.
-											</li>
-										  </ul> -->
-						  
-										  <p class="questm wow fadeIn" >
-										  
-										  그렇다면 다이어트 관점부터 바꾸세요.<br>
-										  다이어트는 의지로 참고 견디는 것이 아니며<br>
-										  몸을 혹사시켜 빼는 것도 아닙니다.<br><br>
-										  올바른 다이어트는 살을 빼는 것이 아니라<br>건강한 생활습관이 천천히<br>몸에 스며들게 되는 과정입니다.
-										  </p><br>
-										
-										  
-										</div>
-									  </div>
-									</div>
-								  </div>
-								</section>
-
-
-
-								<section id="team" class="section-bg" style="background:#000;width:100%;margin-top:30px">
+								<p style="font-size:30px;font-weight:bold"class="blink"> 선착순 50명!</p>
+								
+								<section id="team" class="section-bg wow fadeIn" style="margin-top: 80px;">
 								<div class="container">
-								  <div class="section-header" style="padding-left:15px">
-								   
-								
-				
-								  <br><br>
-									<h3>올바른 다이어트를 좀 더 쉽고 편하게</h3>
-									<p class="textleft questm">
-									다이어트의 시작은 무조건 쉬워야 합니다.<br>스트레스를 받지 않고 꾸준히 할 수 있는<br>자신만의 맞춤 방법을 찾아드립니다.
-									</p><br>
+								   <div class="section-header">
+									<h3 style="text-align:center" class="textleft">당연히 아래 혜택은 기본!</h3>
+									
 								  </div>
-						  <br>
-								
-							  </section>
-							
-							
-							  <section id="team" class="section-bg" style="width:100%;margin-top:40px">
-							  <div class="container">
-								<div class="section-header">
-								  <h3>컷앤컷만의 특별한 감량 노하우</h3>
-							   
-								
-								<div class="row">
-								
-						
-						
-								  <div class="col-lg-12 col-md-12 wow fadeInUp">
+						  
+								  <div class="row">
+								  <div class="col-lg-5 col-md-5 wow fadeInUp">
 									<div class="member">
-									  <img src="./ezgif-frame-041.jpg" class="img-fluid" alt="" style="max-height:460px;width:100%;object-fit:cover;margin-bottom:40px">
+									<img src="https://images.pexels.com/photos/3760067/pexels-photo-3760067.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="img-fluid br50 imgt30" alt="" />
+									<p class="img_text wow fadeInUp">1. 신용 7등급도 진행 가능</p>
+									</div>
+								  </div>
+						
+					  
+								  <div class="col-lg-5 col-md-5 wow fadeInUp mgt30">
+									<div class="member">
+									  <img src="https://images.pexels.com/photos/9796/car-refill-transportation-transport.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="img-fluid br50 imgt30" alt="" />
 									 
+									  <p class="img_text wow fadeInUp">2. 주유/충전 할인 혜택</p>
 									</div>
 								  </div>
+								</div>
 						
-								
-								  <div class="col-lg-4 col-md-4 wow fadeInUp">
-									<div class="member">
-									  <div class="profile no-margin">
-										<h3 class="left-text"><b>1) 현재 체형 & 습관 분석</b><br>여러분의 성향을 파악</h3>
-										<p class="questl" style="text-align: left;">
-										 여러분의 생활 습관을 통해 성향을 파악하고 체형을 분석합니다. 
-										</p>
-									</div>
+					
+						
+									
+								  <div class="row">
+									<div class="col-lg-5 col-md-5 wow fadeInUp mgt30">
+									  <div class="member">
+									  <img src="https://images.pexels.com/photos/5872364/pexels-photo-5872364.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="img-fluid br50 imgt30" alt="" />
 									 
+									  <p class="img_text wow fadeInUp">3. 월 최대 30,000원 추가 할인</p>
+									
+									  </div>
 									</div>
-								  </div>
+						  
 						
-								  <div class="col-lg-4 col-md-4 wow fadeInUp">
-									<div class="member">
-									  <div class="profile no-margin">
-										<h3 class="left-text"><b>2) 맞춤 감량 제안</b><br>최적화된 감량 방식 추천</h3>
-										<p class="questl" style="text-align: left;">
-										성향에 맞는 다이어트 방식을 제안하여 스트레스 없이 편안하게   
+									<div class="col-lg-5 col-md-5 wow fadeInUp mgt30">
+									  <div class="member">
+									  
+										<img src="https://images.pexels.com/photos/7641842/pexels-photo-7641842.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="img-fluid br50 imgt30" alt="" />
 										
-										</p>
-									</div>
+										<p class="img_text wow fadeInUp">4. 7일 내 빠른 출고!</p>
+									  </div>
 									</div>
 								  </div>
+		
+		
+		
 						
-								  <div class="col-lg-4 col-md-4 wow fadeInUp">
-									<div class="member">
-									  <div class="profile no-margin">
-										<h3 class="left-text"><b>3) 1:1 맞춤 감량 관리</b><br>습관화가 되도록 맞춤 코칭</h3>
-										<p class="questl" style="text-align: left;">
-										 난이도에 맞는 맞춤 관리를 통해 자연스럽게 감량이 되도록 코칭 
-										</p>
-									</div>
-									</div>
-								  </div>
-							
-								  
 						
 								</div>
-							  </div>
-							</section>
-
-
-
-
-							<section id="team" class="section-bg" style="background:#000;width:100%;margin-top:30px">
-							<div class="container">
-							  <div class="section-header" style="padding-left:15px">
-							   
-							
-			
-							  <br><br>
-								<h3>올바른 감량이 필요하다면?<br>지금 기회를 놓치지 마세요!<br>무료 체형 분석 이벤트!</h3>
-								<p class="textleft questm">
-								여러분의 체형과 생활 습관을 분석하여<br>감량이 안되는 이유와<br>체형에 맞는 감량법을 찾아드려요.
-								</p>
-							  </div>
-							
-					  <section id="clients" class="wow fadeInUp"><br>
-					  <!-- <hr style="background-color:#fff;width:90%;margin-bottom:35px"> -->
-						<div class="container">
-						<hr style="background-color:#fff;width:90%;margin-bottom:30px">
+							  </section>
+								  <div class="container">
+									<div class="section-header" >
 				  
-							  <div class="owl-carousel clients-carousel">
-  
-  
-						  <!-- flat slide -->
-						  <!--	<div>  
-									  
-										  
-											  <div class="row ">
-												  <div class="col-lg-4 col-4 text-center">
-												  <center><img class="img_slide" src="img/sleep.jpg" alt="" ></center>
-												  </div>
-									  
-												  <div class="col-lg-8 col-8 text-center">
-												  
-												  <p class="txt-tip">수면 중에는 체지방 분해와 단백질 합성에<br>가장 중요한 성장 호르몬을 분비합니다.</p>	
-												  </div>
-		  
-											  </div>
-									  </div> -->
-  
-						  <!-- end flat slide -->		
-  
-  
-
-  
-									  <div>  
-									  <p class="txt-tip">요요 걱정 줄이고</p>	
-										  
-									  </div>
-									  
-									  <div>  
-									  <p class="txt-tip">정체기 극복은 쉽게</p>	
-										  
-									  </div>
-
-									  <div>  
-									  <p class="txt-tip">유지어터가 되도록</p>	
-									  </div>
-
-									  <div>  
-									  <p class="txt-tip">작심삼일 X</p>	
-									  </div>
-
-									  <div>  
-									  <p class="txt-tip">어머님도 쉽게</p>	
-									  </div>
-
-									  <div>  
-									  <p class="txt-tip">갱년기 시기에도 OK</p>	
-									  </div>
-
-									  <div>  
-									  <p class="txt-tip">식단 조절을 편하게</p>	
-									  </div>
+							  
+							  
+	 <br> 
+									  <h3>견적받으시는 분들에게는<br>추가 혜택까지!<br><br>매출 확보를 위해 마진을 확 낮춘<br><br><u class="underline">현재 페이지에서 볼 수 있는<br>특별한 할인가를 받아보세요!</u></h3>
+									  <p class="textleft questm">
+									  <u class="underline blink">(조기 마감이 되면 종료될 수 있습니다)</u>
+									  </p>
+									</div>
 								  
-							  </div>
-							  <hr style="background-color:#fff;width:90%;margin-bottom:30px">
-						</div>
+						  
 	  
-					  </section>
-
-					  <!-- chat -->
-					  <center> <div class=" alert_msg">
-					   <div class="col-2  pad0" style="float:left;margin-right:30px">
-					   <center><img class="chat_img " src="./guide.png" ></center>
-					   </div>
-  
-					   <div class="col-12 col50 text-center pad-msg" >
-					   
-					   <span class="tip-text">여러분의 체형에 맞게<br>올바른 감량을 도와드립니다.</span><br><br>	
-					   </div>
-  
-						   </div> </center><br>
-  
-				   <!-- end chat -->
-		  
-		  
-				  
+							<!-- chat -->
+							<center> <div class=" alert_msg">
+							 <div class="col-2  pad0" style="float:left;margin-right:30px">
+							 <center><img class="chat_img " src="./lotte/guide.png" ></center>
+							 </div>
+		
+							 <div class="col-12 col50 text-center pad-msg" >
+							 
+							 <span class="tip-text">선착순 제공이니<br>기회를 얼른 잡으세요.</span><br><br>	
+							 </div>
+		
+								 </div> </center><br>
+		
+						 <!-- end chat -->
 				
-				   <center><input name="entry.intro" id="quest00_1" class="input_font quest00 intro_click" type="radio" value="최대 감량치 분석 & 특가 이벤트" style="text-align:center;" >
-					<label class="label_button1" id="start0" for="quest00_1" onclick="go_sub();menu_remove()"><span style="font-size: 16px;"></span><span >최대 감량치 분석받기</span></label>
-					
-					<br>
-					<input class="agree" type="checkbox" name="agree11" id="agree11" value="개인정보동의" checked style="font-size:12px !important">
-					<label class="agree" style="font-family: 'RIDIBATANG';font-size:12px !important;margin-top:0px" for="agree11">개인정보동의</label>
-					
-				  
-	
-				  <span class="privacyBtn" onclick="privacyPopUp()">
-					[자세히보기]
-				  </span>
-				  <br>
-				  <span class="alert"  id="alert_41">　</span>
-					</center>
-																<!--원하는 영역을 가도록 수정법= 'onclick = jump_quest(원하는 영역 번호)'를 작성-->
-																<!--버튼 글자 수정 = '시작하기 >>' 부분을 원하는대로 수정해주시면 됩니다.-->
-																<footer id="footer" class="section-bg">
-																<div class="footer-top">
-																  <div class="container">
-																	<div class="row">
-																		  <span>*감량 효과는 개인별 차이가 있을 수 있습니다.</span><br>
-																		<span>회사명 : (주)에스디엘에이치 컷앤컷다이어트</span><br>
-																		<span>사업자번호: 641-86-00917</span><br>
-																		<span>광고사전심의필: 210610800</span><br>
-																		<span>주소: 서울특별시 광진구 능동로 40길 10-3</span>
-															
-																	  </div>
-																	</div>
-																  </div>
-																  <br><br><br>
-															  </footer>	
-						  </section>
-
-
-								  
-								
-
+				
 						
+					  
+						 <center><input name="entry.intro" id="quest00_1" class="input_font quest00 intro_click" type="radio" value="특가 무료 견적" style="text-align:center;" >
+						  <label class="label_button1" id="start0" for="quest00_1" onclick="go_sub();menu_remove()"><span style="font-size: 16px;"></span><span >특가 무료 견적 받기</span></label>
+						  
+						  <br>
+						  <input class="agree" type="checkbox" name="agree11" id="agree11" value="개인정보동의" checked style="font-size:12px !important">
+						  <label class="agree" style="font-family: 'RIDIBATANG';font-size:12px !important;margin-top:0px" for="agree11">개인정보동의</label>
+						  
+						
+		  
+						<span class="privacyBtn" onclick="privacyPopUp()">
+						  [자세히보기]
+						</span>
+						<br>
+						<span class="alert"  id="alert_41">　</span>
+						  </center>
+											  
+												
+											  </div>
+											</div>
+	
 
-								<!-- <div class="col-lg-12 col-md-12 wow fadeInUp">
-			   <div class="member">
-			  <img class="br80" src="./ezgif-frame-041.jpg" class="img-fluid" alt="" style="width:80%;object-fit:cover;max-width:400px" />
-			  </div>
-			  </div><br>
-								  <div class="row counters">
-								  <div class="col-lg-4 col-4 text-center">
-									<span class="countercheck">500</span><span>mg</span>
-									<p class="txt-tip">감태추출물<br>(수면 개선에 도움)</p>
-								  </div>
-					  
-								  <div class="col-lg-4 col-4 text-center">
-									<span class="countercheck">500</span><span >mg</span>
-									<p class="txt-tip">콜레우스포스콜리<br>(체지방 감소 도움)</p>
-								  </div>
-					  
-								  <div class="col-lg-4 col-4 text-center">
-									<img src="./gmp-ffood.png" class="gmp" style="width:100%">
-									<p class="txt-tip">식약처 기능성 인증</p>
-								  </div> 
-			
-								</div><br> -->
+						<footer id="footer" class="section-bg" style="margin-bottom:60px;">
+						<div class="footer-top">
+						  <div class="container">
+							<div class="row">
+							<span>법인명 : 주식회사 카카오토카</span><br>
+							<span>대표자 : 함승철</span><br>
+							<span>법인등록번호 : 110111-5736313</span><br>
+							<span>사업장 소재지 : 서울특별시 도봉구 도봉로 921, 3층(도봉동, 삼화빌딩)</span>
 					
-			
+							  </div>
+							</div>
+						  </div>
+						  
+					  </footer>				
+			  
+			  
+					  </div>
+	
 			
 
 							  </div>
@@ -392,9 +210,9 @@ testbody.innerHTML =`
 
 						  <section  id="quest8_wrap" class="wow fadeIn backg container1" style="text-align: center;" >
 							 					  
-						  <img src="./ezgif-frame-041.jpg" class="bg-img br50" style="min-height:650px;max-height:800px">
+						  <img src="./lotte/ezgif-frame-041.jpg" class="bg-img br50" style="min-height:650px;max-height:800px">
 					 
-					  <div class="img-text" style="font-size:14px;">
+					  <div class="quest-text" style="font-size:14px;">
 					  <center><h1><span class="questm ft-white">도무지 안빠지는 감량 부위를 쉽고 건강하게!</span></h1></center><br>
 
 					 
@@ -437,9 +255,9 @@ testbody.innerHTML =`
 						  <!--질문0번 SECTION-->	
 						  <section  id="quest0_wrap" class="wow fadeIn backg container1" >
 						  
-							  <img src="./mirror.jpg" class="bg-img br50" style="min-height:450px;max-height:650px">
+							  <img src="./lotte/mirror.jpg" class="bg-img br20" style="min-height:450px;max-height:650px">
 		
-							  <div class="wow fadeIn img-text ft-white" style="top:15% !important">	
+							  <div class="wow fadeIn quest-text ft-white" style="top:15% !important">	
 						  <!--질문 문구 부분 시작-->
 							  <center><h1><span class="questm ft-white">희망 목표 체중</span></h1></center>
 						 
@@ -451,7 +269,7 @@ testbody.innerHTML =`
 						  <!-- chat -->
 						  <center><br><div class=" alert_msg">
 						   <div class="col-2  pad0" style="float:left;margin-right:30px">
-						   <center><img class="chat_img mw74" src="./guide.png" ></center>
+						   <center><img class="chat_img mw74" src="./lotte/guide.png" ></center>
 						   </div>
 				  
 						   <div class="col-12 text-center chat-gap" >
@@ -471,14 +289,13 @@ testbody.innerHTML =`
 						 <div class="footer-top">
 						   <div class="container">
 							 <div class="row">
-								   <span>*감량 효과는 개인별 차이가 있을 수 있습니다.</span><br>
-								 <span>회사명 : (주)에스디엘에이치 컷앤컷다이어트</span><br>
-								 <span>사업자번호: 641-86-00917</span><br>
-								 <span>광고사전심의필: 210610800</span><br>
-								 <span>주소: 서울특별시 광진구 능동로 40길 10-3</span>
+								   	<span>법인명 : 주식회사 카카오토카</span><br>
+							<span>대표자 : 함승철</span><br>
+							<span>법인등록번호 : 110111-5736313</span><br>
+							<span>사업장 소재지 : 서울특별시 도봉구 도봉로 921, 3층(도봉동, 삼화빌딩)</span>
 					 
 							   </div>
-							 </div>
+					
 						   </div>
 						   
 					   </footer>	
@@ -492,9 +309,9 @@ testbody.innerHTML =`
 						 
 								 <section  id="quest1_wrap" class="wow fadeIn backg container1" >
 		
-								  <img src="./mirror.jpg" class="bg-img br50" style="min-height:450px;max-height:650px">
+								  <img src="./lotte/mirror.jpg" class="bg-img br50" style="min-height:450px;max-height:650px">
 		
-								  <div class="wow fadeIn img-text ft-white" style="top:15% !important">
+								  <div class="wow fadeIn quest-text ft-white" style="top:15% !important">
 									 <!-- <div class="menu1" style="text-align:left">
 									 <span class="menu_font" style="cursor:pointer;" onclick="jump_quest(0)">PREV</span>
 									 </div><br><br> -->
@@ -508,12 +325,12 @@ testbody.innerHTML =`
 							  <!-- chat -->
 							  <center><div class=" alert_msg">
 							   <div class="col-2  pad0" style="float:left;margin-right:30px">
-							   <center><img class="chat_img mw74" src="./guide.png" ></center>
+							   <center><img class="chat_img mw74" src="./lotte/guide.png" ></center>
 							   </div>
 		  
 							   <div class="col-12 text-center chat-gap" >
 							   
-							   <span class="tip-text ">여러분의 체형에 맞게<br>건강한 감량 분석을 도와드립니다.</span><br><br>	
+							   <span class="tip-text ">갱년기 달라진 체질에 맞게<br>건강한 감량 분석을 도와드립니다.</span><br><br>	
 							   </div>
 		  
 								   </div> </center><br>
@@ -527,11 +344,10 @@ testbody.innerHTML =`
 						  <div class="footer-top">
 							<div class="container">
 							  <div class="row">
-									<span>*감량 효과는 개인별 차이가 있을 수 있습니다.</span><br>
-								  <span>회사명 : (주)에스디엘에이치 컷앤컷다이어트</span><br>
-								  <span>사업자번호: 641-86-00917</span><br>
-								  <span>광고사전심의필: 210610800</span><br>
-								  <span>주소: 서울특별시 광진구 능동로 40길 10-3</span>
+							  <span>법인명 : 주식회사 카카오토카</span><br>
+							  <span>대표자 : 함승철</span><br>
+							  <span>법인등록번호 : 110111-5736313</span><br>
+							  <span>사업장 소재지 : 서울특별시 도봉구 도봉로 921, 3층(도봉동, 삼화빌딩)</span>
 					  
 								</div>
 							  </div>
@@ -545,9 +361,9 @@ testbody.innerHTML =`
 								  
 								  <!--'이전으로' 버튼 부분-->
 							  
-								  <img src="./mirror.jpg" class="bg-img br50" style="min-height:450px;max-height:650px">
+								  <img src="./lotte/mirror.jpg" class="bg-img br50" style="min-height:450px;max-height:650px">
 								 
-							  <div class="wow fadeIn img-text ft-white" style="top:15% !important">	
+							  <div class="wow fadeIn quest-text ft-white" style="top:15% !important">	
 		
 								  
 									  <center><h1><span class="questm ft-white">현재 체중</span></h1></center>
@@ -561,7 +377,7 @@ testbody.innerHTML =`
 		<!-- chat -->
 		<center><br><div class=" alert_msg">
 		 <div class="col-2  pad0" style="float:left;margin-right:30px">
-		 <center><img class="chat_img mw74" src="./guide.png" ></center>
+		 <center><img class="chat_img mw74" src="./lotte/guide.png" ></center>
 		 </div>
 
 		 <div class="col-12 text-center chat-gap" >
@@ -581,11 +397,10 @@ testbody.innerHTML =`
 		<div class="footer-top">
 		  <div class="container">
 			<div class="row">
-				  <span>*감량 효과는 개인별 차이가 있을 수 있습니다.</span><br>
-				<span>회사명 : (주)에스디엘에이치 컷앤컷다이어트</span><br>
-				<span>사업자번호: 641-86-00917</span><br>
-				<span>광고사전심의필: 210610800</span><br>
-				<span>주소: 서울특별시 광진구 능동로 40길 10-3</span>
+			<span>법인명 : 주식회사 카카오토카</span><br>
+			<span>대표자 : 함승철</span><br>
+			<span>법인등록번호 : 110111-5736313</span><br>
+			<span>사업장 소재지 : 서울특별시 도봉구 도봉로 921, 3층(도봉동, 삼화빌딩)</span>
 	
 			  </div>
 			</div>
@@ -606,9 +421,9 @@ testbody.innerHTML =`
 										 <div class="stepper-item"></div>
 								 <div class="stepper-item"></div>
 											 </div></center><br> -->
-											 <img src="./mirror.jpg" class="bg-img br50" style="min-height:450px;max-height:650px">
+											 <img src="./lotte/mirror.jpg" class="bg-img br50" style="min-height:450px;max-height:650px">
 											 
-											 <div class="wow fadeIn img-text ft-white" style="top:15% !important">	
+											 <div class="wow fadeIn quest-text ft-white" style="top:15% !important">	
 											 <!--질문 문구 부분 시작-->
 											 <center><h1><span class="questm ft-white">신장</span></h1></center>
 											 
@@ -621,12 +436,12 @@ testbody.innerHTML =`
 											 <!-- chat -->
 											 <center><br><div class=" alert_msg">
 											  <div class="col-2  pad0" style="float:left;margin-right:30px">
-											  <center><img class="chat_img mw74" src="./guide.png" ></center>
+											  <center><img class="chat_img mw74" src="./lotte/guide.png" ></center>
 											  </div>
 						 
 											  <div class="col-12 text-center chat-gap" >
 											  
-											  <span class="tip-text ">여러분의 체형에 맞게<br>건강한 감량 분석을 도와드립니다.</span><br><br>	
+											  <span class="tip-text ">갱년기 달라진 체질에 맞게<br>건강한 감량 분석을 도와드립니다.</span><br><br>	
 											  </div>
 						 
 												  </div> </center><br>
@@ -641,11 +456,10 @@ testbody.innerHTML =`
 						 <div class="footer-top">
 						   <div class="container">
 							 <div class="row">
-								   <span>*감량 효과는 개인별 차이가 있을 수 있습니다.</span><br>
-								 <span>회사명 : (주)에스디엘에이치 컷앤컷다이어트</span><br>
-								 <span>사업자번호: 641-86-00917</span><br>
-								 <span>광고사전심의필: 210610800</span><br>
-								 <span>주소: 서울특별시 광진구 능동로 40길 10-3</span>
+								   	<span>법인명 : 주식회사 카카오토카</span><br>
+							<span>대표자 : 함승철</span><br>
+							<span>법인등록번호 : 110111-5736313</span><br>
+							<span>사업장 소재지 : 서울특별시 도봉구 도봉로 921, 3층(도봉동, 삼화빌딩)</span>
 					 
 							   </div>
 							 </div>
@@ -657,9 +471,9 @@ testbody.innerHTML =`
 						 
 								 
 						 <section  id="quest4_wrap" class="wow fadeIn backg container1" >	
-						  <img src="./mirror.jpg" class="bg-img br50" style="min-height:450px;max-height:650px">
+						  <img src="./lotte/mirror.jpg" class="bg-img br50" style="min-height:450px;max-height:650px">
 						 
-						  <div class="wow fadeIn img-text ft-white" style="top:15% !important">	
+						  <div class="wow fadeIn quest-text ft-white" style="top:15% !important">	
 							  <center><h1><span class="questm ft-white">나이</span></h1></center>
 								  
 								 
@@ -672,7 +486,7 @@ testbody.innerHTML =`
 										 <!-- chat -->
 										 <center><br><div class=" alert_msg">
 										  <div class="col-2  pad0" style="float:left;margin-right:30px">
-										  <center><img class="chat_img mw74" src="./guide.png" ></center>
+										  <center><img class="chat_img mw74" src="./lotte/guide.png" ></center>
 										  </div>
 					 
 										  <div class="col-12 text-center chat-gap" >
@@ -693,11 +507,10 @@ testbody.innerHTML =`
 										 <div class="footer-top">
 										   <div class="container">
 											 <div class="row">
-												   <span>*감량 효과는 개인별 차이가 있을 수 있습니다.</span><br>
-												 <span>회사명 : (주)에스디엘에이치 컷앤컷다이어트</span><br>
-												 <span>사업자번호: 641-86-00917</span><br>
-												 <span>광고사전심의필: 210610800</span><br>
-												 <span>주소: 서울특별시 광진구 능동로 40길 10-3</span>
+											 <span>법인명 : 주식회사 카카오토카</span><br>
+											 <span>대표자 : 함승철</span><br>
+											 <span>법인등록번호 : 110111-5736313</span><br>
+											 <span>사업장 소재지 : 서울특별시 도봉구 도봉로 921, 3층(도봉동, 삼화빌딩)</span>
 									 
 											   </div>
 											 </div>
@@ -709,9 +522,9 @@ testbody.innerHTML =`
 										
 		
 							  <section  id="quest5_wrap" class="wow fadeIn backg container1" >
-							  <img src="./mirror.jpg" class="bg-img br50" style="min-height:450px;max-height:650px">
+							  <img src="./lotte/mirror.jpg" class="bg-img br20" style="min-height:450px;max-height:650px">
 						  
-						  <div class="wow fadeIn img-text ft-white" style="top:15% !important">	
+						  <div class="wow fadeIn quest-text ft-white" style="top:15% !important">	
 							  <center><h1><span class="questm ft-white">성함</span></h1></center>
 								  
 								 
@@ -724,12 +537,12 @@ testbody.innerHTML =`
 										  <!-- chat -->
 										  <center><br><div class=" alert_msg">
 										   <div class="col-2  pad0" style="float:left;margin-right:30px">
-										   <center><img class="chat_img mw74" src="./guide.png" ></center>
+										   <center><img class="chat_img mw74" src="./lotte/guide.png" ></center>
 										   </div>
 					  
 										   <div class="col-12 text-center chat-gap" >
 										   
-										   <span class="tip-text ">무료 상담만으로도 도움될 수 있게<br>친절히 안내드리겠습니다.</span><br><br>	
+										   <span class="tip-text ">오늘의 특가 혜택을<br>친절히 안내드리겠습니다.</span><br><br>	
 										   </div>
 					  
 											   </div> </center><br>
@@ -744,11 +557,10 @@ testbody.innerHTML =`
 										  <div class="footer-top">
 											<div class="container">
 											  <div class="row">
-													<span>*감량 효과는 개인별 차이가 있을 수 있습니다.</span><br>
-												  <span>회사명 : (주)에스디엘에이치 컷앤컷다이어트</span><br>
-												  <span>사업자번호: 641-86-00917</span><br>
-												  <span>광고사전심의필: 210610800</span><br>
-												  <span>주소: 서울특별시 광진구 능동로 40길 10-3</span>
+											  <span>법인명 : 주식회사 카카오토카</span><br>
+											  <span>대표자 : 함승철</span><br>
+											  <span>법인등록번호 : 110111-5736313</span><br>
+											  <span>사업장 소재지 : 서울특별시 도봉구 도봉로 921, 3층(도봉동, 삼화빌딩)</span>
 									  
 												</div>
 											  </div>
@@ -762,9 +574,9 @@ testbody.innerHTML =`
 		
 								 
 								  <section  id="quest6_wrap" class="wow fadeIn backg container1" >
-									  <img src="./mirror.jpg" class="bg-img br50" style="min-height:450px;max-height:650px">
+									  <img src="./lotte/mirror.jpg" class="bg-img br20" style="min-height:450px;max-height:650px">
 									 
-									  <div class="wow fadeIn img-text ft-white" style="top:15% !important">	
+									  <div class="wow fadeIn quest-text ft-white" style="top:15% !important">	
 										  <center><h1><span class="questm ft-white">휴대폰 번호</span></h1></center>
 											  
 											 
@@ -776,12 +588,12 @@ testbody.innerHTML =`
 													 <!-- chat -->
 													 <center><br><div class=" alert_msg">
 													  <div class="col-2  pad0" style="float:left;margin-right:30px">
-													  <center><img class="chat_img mw74" src="./guide.png" ></center>
+													  <center><img class="chat_img mw74" src="./lotte/guide.png" ></center>
 													  </div>
 								 
 													  <div class="col-12 text-center chat-gap" >
 													  
-													  <span class="tip-text ">무료 상담만으로도 도움될 수 있게<br>친절히 안내드리겠습니다.</span><br><br>	
+													  <span class="tip-text ">오늘의 특가 혜택을<br>친절히 안내드리겠습니다.</span><br><br>
 													  </div>
 								 
 														  </div> </center><br>
@@ -789,8 +601,8 @@ testbody.innerHTML =`
 												  <!-- end chat -->
 
 
-													 <center><input name="entry.quest6" id="quest6_1" class="input_font quest6 click_submit" type="submit" value="무료 상담 받기" style="text-align:center;display: none;" >
-													 <label class="label_button1 disabled" id="next_phone" for="quest6_1" style="text-align:Center;" onclick="OnSubmit();go_result();">무료 상담 받기</label></center>	
+													 <center><input name="entry.quest6" id="quest6_1" class="input_font quest6 click_submit" type="submit" value="무료 상담 받기" disabled="disabled" style="text-align:center;display: none;" >
+													 <label class="label_button1 disabled" id="next_phone" for="quest6_1" style="text-align:Center;" disabled="disabled" onclick="go_result();">무료 상담 받기</label></center>	
 
 													 <br>
 													 <input class="agree" type="checkbox" name="agree11" id="agree12" value="개인정보동의" checked style="font-size:12px !important">
@@ -810,11 +622,10 @@ testbody.innerHTML =`
 													 <div class="footer-top">
 													   <div class="container">
 														 <div class="row">
-															   <span>*감량 효과는 개인별 차이가 있을 수 있습니다.</span><br>
-															 <span>회사명 : (주)에스디엘에이치 컷앤컷다이어트</span><br>
-															 <span>사업자번호: 641-86-00917</span><br>
-															 <span>광고사전심의필: 210610800</span><br>
-															 <span>주소: 서울특별시 광진구 능동로 40길 10-3</span>
+														 <span>법인명 : 주식회사 카카오토카</span><br>
+														 <span>대표자 : 함승철</span><br>
+														 <span>법인등록번호 : 110111-5736313</span><br>
+														 <span>사업장 소재지 : 서울특별시 도봉구 도봉로 921, 3층(도봉동, 삼화빌딩)</span>
 												 
 														   </div>
 														 </div>
@@ -828,34 +639,34 @@ testbody.innerHTML =`
 						 <!--나는 어떤 부모인가요?-->
 								 
 									 <section  id="quest7_wrap" class="wow fadeIn backg container1" >
-									  <img src="./mirror.jpg" class="bg-img br50" style="min-height:700px;max-height:900px">
+									  <img src="./lotte/mirror.jpg" class="bg-img br20" style="min-height:700px;max-height:900px">
 		
-									  <div class="wow fadeIn img-text ft-white" style="top:15% !important">
+									  <div class="wow fadeIn quest-text ft-white" style="top:15% !important">
 											
-								  <center><h1><span class="questm ft-white">희망 감량 부위</span></h1></center><br>
-								  <center><input class="choice click_belly" id="hope_1" name="entry.272078534" type="radio" value="배" /> <label class="label_button1" for="hope_1" onclick="jump_quest(0);focus()" >배</label></center>
+								  <center><h1><span class="questm ft-white">희망 차종</span></h1></center><br>
+								  <center><input class="choice click_belly" id="hope_1" name="entry.272078534" type="radio" value="신형 그랜저" /> <label class="label_button1" for="hope_1" onclick="car1();jump_quest(5);focus();" >신형 그랜저</label></center>
 
-								  <center><input class="choice click_side" id="hope_2" name="entry.272078534" type="radio" value="옆구리" /> <label class="label_button1" for="hope_2" onclick="jump_quest(0);focus()">옆구리</label></center>
+								  <center><input class="choice click_side" id="hope_2" name="entry.272078534" type="radio" value="카니발 4세대" /> <label class="label_button1" for="hope_2" onclick="car2();jump_quest(5);focus()">카니발 4세대</label></center>
 								  
-								  <center><input class="choice click_thigh" id="hope_3" name="entry.272078534" type="radio" value="허벅지" /> <label class="label_button1" for="hope_3" onclick="jump_quest(0);focus()">허벅지</label></center>
+								  <center><input class="choice click_thigh" id="hope_3" name="entry.272078534" type="radio" value="아이오닉" /> <label class="label_button1" for="hope_3" onclick="car3();jump_quest(5);focus()">아이오닉</label></center>
 								 
-								  <center><input class="choice click_back" id="hope_4" name="entry.272078534" type="radio" value="등" /> <label class="label_button1" for="hope_4" onclick="jump_quest(0);focus()">등</label></center>
+								  <center><input class="choice click_back" id="hope_4" name="entry.272078534" type="radio" value="아반떼" /> <label class="label_button1" for="hope_4" onclick="car4();jump_quest(5);focus()">아반떼</label></center>
 								 
-								  <center><input class="choice click_calf"" id="hope_5" name="entry.272078534" type="radio" value="종아리" /> <label class="label_button1" for="hope_5" onclick="jump_quest(0);focus()">종아리</label></center>
+								  <center><input class="choice click_calf"" id="hope_5" name="entry.272078534" type="radio" value="CASPER" /> <label class="label_button1" for="hope_5" onclick="car5();jump_quest(5);focus()">CASPER</label></center>
 							
 
 							  <!-- chat -->
-							  <center><br><div class=" alert_msg">
+							 <!-- <center><br><div class=" alert_msg">
 							   <div class="col-2  pad0" style="float:left;margin-right:30px;">
-							   <center><img class="chat_img mw74" src="./guide.png" ></center>
+							   <center><img class="chat_img mw74" src="./lotte/guide.png" ></center>
 							   </div>
 		  
 							   <div class="col-12 text-center chat-gap" >
 							   
-							   <span class="tip-text">여러분의 체형에 맞게<br>건강한 감량 분석을 도와드립니다.</span><br><br>	
+							   <span class="tip-text">갱년기 달라진 체질에 맞게<br>건강한 감량 분석을 도와드립니다.</span><br><br>	
 							   </div>
 		  
-								   </div> </center><br>
+								   </div> </center><br> -->
 								 
 						   <!-- end chat -->
 						 
@@ -864,11 +675,10 @@ testbody.innerHTML =`
 						   <div class="footer-top">
 							 <div class="container">
 							   <div class="row">
-									 <span>*감량 효과는 개인별 차이가 있을 수 있습니다.</span><br>
-								   <span>회사명 : (주)에스디엘에이치 컷앤컷다이어트</span><br>
-								   <span>사업자번호: 641-86-00917</span><br>
-								   <span>광고사전심의필: 210610800</span><br>
-								   <span>주소: 서울특별시 광진구 능동로 40길 10-3</span>
+							   <span>법인명 : 주식회사 카카오토카</span><br>
+							   <span>대표자 : 함승철</span><br>
+							   <span>법인등록번호 : 110111-5736313</span><br>
+							   <span>사업장 소재지 : 서울특별시 도봉구 도봉로 921, 3층(도봉동, 삼화빌딩)</span>
 					   
 								 </div>
 							   </div>
@@ -885,7 +695,7 @@ testbody.innerHTML =`
 						 <center><div class="box_wrap">
 										 <br /><div id="box" style="margin-left:0px;margin-top:50px"></div>
 									 </div></center><br>
-									 <center><div class="wait_text">잠시만 기다려 주세요...</div>
+									 <center><div class="wait_text" style="color:#fff">잠시만 기다려 주세요...</div>
 									 
 											  
 						 
@@ -894,33 +704,36 @@ testbody.innerHTML =`
 
 						 <section  id="quest100_wrap" class="wow fadeIn backg container1" >
 						  
-						 <img src="./mirror.jpg" class="bg-img br50" style="min-height:950px;max-height:1050px">
+						<!-- <img src="./lotte/mirror.jpg" class="bg-img br50" style="min-height:650px;max-height:1050px"> -->
    
-						 <div class="wow fadeIn img-text ft-white" style="top:15% !important">	
+						 <div class="wow fadeIn quest-text ft-white" style="top:15% !important">	
 				
-						 <center><h1 style="line-height:90%"><span class="questm ft-white">컷앤컷 다이어트<br>무료 체형 분석<br>상담 신청이 완료 되었습니다.<br><br>실질적인 도움과 안내를 위하여<br>전화를 통해 안내를 드리고 있습니다.<br>다만 부재시 감량을 도와드리지 못하니<br>꼭 전화를 받아주세요.<br><br>오로지 여러분의 건강한 감량만을 생각합니다.<br>-컷앤컷 다이어트-</span></h1></center>
+						 
 
-						
+	
 
-							
-					
-						 </div>
-   
 						 <footer id="footer" class="section-bg">
 						 <div class="footer-top">
 						   <div class="container">
 							 <div class="row">
-								   <span>*감량 효과는 개인별 차이가 있을 수 있습니다.</span><br>
-								 <span>회사명 : (주)에스디엘에이치 컷앤컷다이어트</span><br>
-								 <span>사업자번호: 641-86-00917</span><br>
-								 <span>광고사전심의필: 210610800</span><br>
-								 <span>주소: 서울특별시 광진구 능동로 40길 10-3</span>
+							 <span>법인명 : 주식회사 카카오토카</span><br>
+							 <span>대표자 : 함승철</span><br>
+							 <span>법인등록번호 : 110111-5736313</span><br>
+							 <span>사업장 소재지 : 서울특별시 도봉구 도봉로 921, 3층(도봉동, 삼화빌딩)</span>
 					 
 							   </div>
 							 </div>
 						   </div>
 						   
-					   </footer>				
+					   </footer>	
+
+
+				
+							
+					
+						 </div>
+   
+					
 							
 					 </section>
 							 
@@ -949,7 +762,7 @@ testbody.innerHTML =`
 		  </div>
 		  <div style="line-height:1.2" class="conWrap">
 			개인정보처리방침<br><br>
-			‘(주)에스디엘에이치 컷앤컷다이어트' 회사는 (이하 ‘회사’는) 고객님의 개인정보를 중요시하며, “개인정보보호법”, “정보통신망 이용촉진 및 정보보호에 관한 법률”등 관련법규를 준수하고 있습니다. 회사는 개인정보취급방침을 통하여 고객님께서 제공하시는 개인정보가 어떠한 용도와 방식으로 이용되고 있으며, 개인정보보호를 위해 어떠한 조치가 취해지고 있는지 알려드립니다.<br />
+			‘(주)주식회사 카카오토카' 회사는 (이하 ‘회사’는) 고객님의 개인정보를 중요시하며, “개인정보보호법”, “정보통신망 이용촉진 및 정보보호에 관한 법률”등 관련법규를 준수하고 있습니다. 회사는 개인정보취급방침을 통하여 고객님께서 제공하시는 개인정보가 어떠한 용도와 방식으로 이용되고 있으며, 개인정보보호를 위해 어떠한 조치가 취해지고 있는지 알려드립니다.<br />
 			아울러 개인정보 제공자가 동의한 내용 외의 다른 목적으로 활용하지 않으며, 제공된 개인정보의 이용을 거부하고자 할 때에는 개인정보 관리책임자를 통해 열람, 정정, 삭제를 요구할 수 있습니다.<br><br>
 			<br />
 			01. 수집하는 개인정보 항목<br />
@@ -995,7 +808,7 @@ testbody.innerHTML =`
 			전자적 파일형태로 저장된 개인정보는 기록을 재생할 수 없는 기술적 방법을 사용하여 삭제합니다.<br />
 			<br />
 			05. 개인정보의 제3자 제공<br />
-			회사는 정보주체의 개인정보를 이용목적 내에서만 처리하며, 정보 주체의 동의, 법률의 특별한 규정이 있는 경우에만 개인정보를 제3자에게 제공합니다.<br />
+			회사는 정보주체의 개인정보를 이용목적 내에서만 처리하며, 정보 주체의 동의, 법률의 한정한 규정이 있는 경우에만 개인정보를 제3자에게 제공합니다.<br />
 			회사는 다음과 같이 개인정보를 제3자에게 제공하고 있습니다.<br />
 			<br />
 			-제공하는 개인정보 항목 : 본인이름, 본인나이, 본인연락처, 불편사항, 결혼유무, 이메일 등 고객이 입력한 정보<br />
@@ -1038,8 +851,10 @@ testbody.innerHTML =`
 	  <!-- Code begins here -->
 <div id="floating_menu">
 <button onclick="jump_quest(7);menu_remove()" class="float" style="z-index: 999;">
-<p style="padding:17px;">최대 감량치 분석 & 특가 이벤트</p></button>
+<p style="padding:17px;">특가 견적 받기</p></button>
 </div>
+
+
 
 `;
 
