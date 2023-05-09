@@ -6,7 +6,7 @@ testbody.innerHTML = `
      
         <!-- <img src="./img/gov.png" style="width:150px"> -->
    <img src="./img/logo-white.png" style="width:250px;margin-bottom:30px;">
-        <h1 class="wow fadeInUp" style="color:yellow"><span style="color:#fff">가정의 달 5월 이벤트</span><br>영업사원 수수료 0%</h1><br>
+        <h1 class="wow fadeInUp" style="color:yellow"><span style="color:#fff">견적 상승의 원인</span><br>영업사원 수수료 0%</h1><br>
         <a href="#sec05" class="scroll box">
             <span class="timer">
                 현재 특가 | <span class="today_date2" style="bottom:0;"></span> 
@@ -464,6 +464,52 @@ testbody.innerHTML = `
     </div>
 </div><!----form-end------>
 </div><!-- contentsWrap end -->
+
+<form method="POST" name="register_submit" id="register_submit" class="" autocomplete="off" onsubmit="return apply_submit(this)">
+<input type="hidden" name="aid" value="265">
+<input type="hidden" name="partner" value="uLgOkhwW">
+<input type="hidden" name="subcode" value="">
+<input type="hidden" name="referer" value="">
+<div class="input-block">
+    <label>상품선택</label>
+    <div class="checkbox-list">
+        <div class="checkbox-item">
+            <input type="radio" name="value3" id="submitTp01" class="rd-control" checked="" required="" value="장기렌트" onclick="">
+            <label for="submitTp01" class="rd-label">장기렌트</label>
+        </div>
+        <div class="checkbox-item">
+            <input type="radio" name="value3" id="submitTp02" class="rd-control" required="" value="리스">
+            <label for="submitTp02" class="rd-label">리스</label>
+        </div>
+        <div class="checkbox-item">
+            <input type="radio" name="value3" id="submitTp03" class="rd-control" required="" value="할부">
+            <label for="submitTp03" class="rd-label">할부</label>
+        </div>
+    </div>
+</div>
+<div class="input-block">
+    <label for="submitNm">고객명</label>
+    <input type="text" name="value1" value="" placeholder="법인은 법인명, 개인 및 사업자는 성함을 적어주세요." id="submitNm" maxlength="10">
+</div>
+<div class="input-block">
+    <label for="submitNb">휴대전화번호</label>
+    <input type="text" name="value2" value="" placeholder="- 없이 숫자만 입력해주세요" id="submitNb" maxlength="13" oninput="autoHyphen(this)">
+</div>
+<div class="checkbox-block">
+    <input type="checkbox" name="submitPrivacy" id="submitPrivacy" class="rd-control" checked="" required="" data-gtm-form-interact-field-id="0">
+    <label for="submitPrivacy" class="rd-label"><span>(필수)</span> 개인(신용)정보 이용동의</label>
+</div>
+<div class="btn-box">
+    <div class="btn-box-top">
+        <div class="submit-btn">
+            <button type="submit">
+                <img src="./img/submit-btn.png" alt="">
+                <p>빠른상담신청</p>
+            </button>
+        </div>
+    </div>
+</div>
+</form>
 
 
 <div class="wrap linkWrap">
